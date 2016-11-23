@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Nouveau" android:id="@+id/miNouveau" ></item>
+    <item android:title="Supprimer" android:id="@+id/miSupprimer" ></item>
+    <item android:title="Quitter" android:id="@+id/miQuitter" ></item>
+</menu>

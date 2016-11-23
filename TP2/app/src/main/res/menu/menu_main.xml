@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Nouveau"
+          android:id="@+id/miNouveau"
+          android:showAsAction="never" ></item>
+
+    <item android:title="Supprimer"
+          android:id="@+id/miSupprimer"
+          android:showAsAction="never" ></item>
+
+    <item android:title="Quitter"
+          android:id="@+id/miQuitter"
+          android:showAsAction="never"></item>
+
+</menu>

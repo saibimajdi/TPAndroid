@@ -5,6 +5,7 @@ package com.fsm.tp4;
  */
 
 public interface OnStudentEventListener {
+
     public void onSupprimerClicked();
     public void onSuivantClicked();
 }

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="title"
+        android:title="Titre de l'application"
+        android:textColor="@color/colorPrimary">
+    </EditTextPreference>
+
+    <CheckBoxPreference
+        android:key="useLoginPassword"
+        android:title="Utiliser un mot de passe">
+    </CheckBoxPreference>
+
+    <EditTextPreference
+        android:key="login"
+        android:title="Login"
+        android:summary="Login d'authentification"
+        android:dependency="useLoginPassword"
+        android:icon="@android:color/background_dark">
+    </EditTextPreference>
+
+    <EditTextPreference
+        android:key="password"
+        android:title="Mot de passe"
+        android:summary="Votre mot de passe"
+        android:dependency="useLoginPassword"
+        android:icon="@android:color/background_dark">
+    </EditTextPreference>
+
+</PreferenceScreen>
